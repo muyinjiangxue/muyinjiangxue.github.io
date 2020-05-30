@@ -1,0 +1,249 @@
+.content .header {
+    background-color: #1a1a1e;
+    font-size: 19px;
+    color: #FFF;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.content .header-left span {
+    padding-top: 3px;
+}
+.content .goback {
+    color: #ffffff;
+}
+.content .header-middle {
+    text-align: center;
+}
+.content .header-right {
+    text-align: right;
+}
+.content .main_visual {
+    height: 5%;
+    line-height: 30px;
+    overflow: hidden;
+    position: relative;
+    margin-top: -6%;
+}
+.content .main_image {
+    margin-top: 41px;
+    height: 20%;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #eeeeee;
+}
+.content .main_image ul {
+    height: 270px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content .main_image li {
+    float: left;
+    height: 270px;
+}
+.content .main_image li img {
+    display: block;
+    width: 100%;
+}
+.content .main_image li a {
+    display: block;
+    width: 100%;
+    height: 270px;
+}
+.content div.flicking_con {
+    position: absolute;
+    left: 58%;
+    z-index: 1;
+    width: 300px;
+    height: 21px;
+    margin: 0 0 0 -50px;
+}
+.content div.flicking_con a {
+    float: left;
+    width: 21px;
+    height: 21px;
+    margin: 0;
+    padding: 0;
+    background: url('../images/btn_main_img1.png') 0 0 no-repeat;
+    display: block;
+    text-indent: -1000px;
+}
+.content div.flicking_con a.on {
+    background-position: 0 -21px;
+}
+.content #btn_prev,
+.content #btn_next {
+    z-index: 11111;
+    position: absolute;
+    display: block;
+    width: 73px !important;
+    height: 74px !important;
+    top: 50%;
+    margin-top: -37px;
+    display: none;
+}
+.content .recommend-title {
+    width: 100%;
+    height: 50px;
+    background: #f7f7f7;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.content .recommend-title-border {
+    width: 100%;
+    margin: 0 auto;
+    height: 36px;
+    float: left;
+    margin-top: 7px;
+    border: solid 1px #e61414;
+    border-radius: 3px;
+}
+.content .recommend {
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    height: 34px;
+    float: left;
+    background: #e61414;
+    letter-spacing: 2px;
+}
+.content .recommend-title1 {
+    width: 100%;
+    height: 50px;
+    background: #f7f7f7;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.content .recommend-box-1 {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    padding-top: 48px;
+    margin-bottom: 5px;
+}
+.content .recommend1 {
+    line-height: 34px;
+    text-align: center;
+    color: #e61414;
+    width: 50%;
+    height: 34px;
+    float: left;
+    letter-spacing: 2px;
+}
+.content .ranking-headline {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%; 
+    text-align: center;
+}
+.content .ranking-picture {
+    margin-top: 14px;
+}
+.content .float {
+    float: left;
+}
+.content .box-1 {
+    width: 100%;
+}
+.content .clearfix:after {
+    content: "020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    width: 100%;
+}
+.content .clearfix {
+    /* 瑙﹀彂 hasLayout */
+    zoom: 1;
+}
+.content .ranking-text-list {
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.content .ranking-text1 {
+    font-family: "寰蒋闆呴粦", "瀹嬩綋";
+    font-size: 14px;
+}
+.content .ranking-text2 {
+    font-family: "寰蒋闆呴粦", "瀹嬩綋";
+    font-size: 12px;
+}
+.content .ranking-text3 {
+    font-family: "寰蒋闆呴粦", "瀹嬩綋";
+    font-size: 10px;
+    color: #9ec8a9;
+}
+.content .ranking-list {
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: solid 1px #f5f5f5;
+}
+.content .ranking-text4 {
+    width: 58px;
+    height: 30px;
+    background: #e61414;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-family: "寰蒋闆呴粦", "瀹嬩綋";
+    font-size: 14px;
+    border-radius: 3px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 3%;
+}
+.ranking-yugao {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+
+.image-yg {
+    margin-left: 48px;
+}
+
+.ranking-pic {
+    margin-top: 14px;
+}
+
+.ranking-text-yg {
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.ranking-rwyg {
+    font-size: 16px;
+    color: #2a2a2a;
+}
+
+.ranking-zx {
+    font-size: 12px;
+    color: #505050;
+    margin-top: 10px;
+}
+
+.ranking-zjia {
+    float: right;
+    line-height: 80px;
+    margin-right: 3%;
+    color: #fc1f18;
+}
+
+.jiaqian {
+    font-size: 18px;
+    color: #fc1f18;
+    font-weight: 500;
+}
